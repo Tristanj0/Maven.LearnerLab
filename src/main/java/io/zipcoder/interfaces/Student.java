@@ -8,6 +8,7 @@ public class Student extends Person implements Leaner {
         double totalStudyTime = 0;
     }
 
+
     public void learn(double numberOfHours) {
         this.totalStudyTime += numberOfHours;
     }
