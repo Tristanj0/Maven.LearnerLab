@@ -1,10 +1,10 @@
 package io.zipcoder.interfaces;
 
-public interface Leaner {
+public interface Learner {
 
-    static void Learn (double numberOfHours) {
+    void learn (double numberOfHours);
 
-    }
+
 
     default Double getTotalStudyTime() {
         return null;

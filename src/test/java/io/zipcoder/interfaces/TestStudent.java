@@ -8,7 +8,7 @@ public class TestStudent {
     @Test
     public void testImplementation() {
     Student student = new Student(0, "");
-    Assert.assertTrue(student instanceof Leaner);
+    Assert.assertTrue(student instanceof Learner);
     }
 
     @Test

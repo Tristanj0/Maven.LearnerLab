@@ -22,9 +22,7 @@ public class Person {
         this.name = name;
     }
 
-    public static class Student implements Leaner {
 
-    }
 }
 
 
